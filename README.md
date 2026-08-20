@@ -1,5 +1,4 @@
 # predicting-irrigation-needs-s6e4-
-# predicting-irrigation-needs-
 🌾 Predicting Irrigation Needs
 https://img.shields.io/badge/Kaggle-Project-20BEFF?style=flat&logo=kaggle
 https://img.shields.io/badge/Python-3.11-blue.svg
@@ -135,11 +134,15 @@ pip (or conda)
 Installation
 Clone the repository:
 
+bash
 git clone https://github.com/your-username/predicting-irrigation-needs.git
 cd predicting-irrigation-needs
-
 Install the required packages:
+
+bash
 pip install pandas numpy matplotlib seaborn scikit-learn lightgbm optuna
+(Note: A requirements.txt file is recommended. You can generate one using pip freeze > requirements.txt).
+
 Usage
 Ensure your Kaggle competition data (train.csv and test.csv) is in the correct path specified in the notebook.
 
@@ -151,7 +154,6 @@ Execute all cells. The notebook will run through the entire pipeline, from EDA a
 
 📁 Project Structure
 text
-
 /predicting-irrigation-needs
 │
 ├── predicting-irrigation-needs-s6e4.ipynb  # The main Jupyter Notebook
@@ -161,7 +163,6 @@ text
 └── data/                                  # (Optional) Folder for data
     ├── train.csv
     └── test.csv
-
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
