@@ -151,6 +151,7 @@ Execute all cells. The notebook will run through the entire pipeline, from EDA a
 
 📁 Project Structure
 text
+
 /predicting-irrigation-needs
 │
 ├── predicting-irrigation-needs-s6e4.ipynb  # The main Jupyter Notebook
