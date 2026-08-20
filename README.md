@@ -159,8 +159,9 @@ text
 ├── requirements.txt                       # List of Python dependencies (optional)
 ├── README.md                              # This file
 └── data/                                  # (Optional) Folder for data
-    ├── train.csv
-    └── test.csv
+├── train.csv
+└── test.csv
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
